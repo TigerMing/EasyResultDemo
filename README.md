@@ -1,0 +1,2 @@
+# EasyResultDemo
+哪里开始就哪里结束，让onActivityResult的处理更简单
