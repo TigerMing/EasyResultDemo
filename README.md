@@ -8,13 +8,7 @@
 延迟返回
 线程切换
 
-例：
-    EasyResult.with(MainActivity.this).callBack(new IEasyResultCallback() {
-       @Override
-       public void callBack(int requestCode, int resultCode, @Nullable Intent data) {
-           Log.d("EasyResult","requestCode = " + requestCode + "----resultCode = " + resultCode + "----data = " + data.getStringExtra("Test"));
-       }
-    }).start(new Intent(MainActivity.this,TestActivity1.class),102);
+例:直接看demo的MainActivity吧
 
 在callBack处理onActivityResult回调的逻辑即可
 目的是便于逻辑的跟踪处理
