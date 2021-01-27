@@ -1,0 +1,3 @@
+include ':EasyResult'
+include ':app'
+rootProject.name = "EasyResultDemo"
